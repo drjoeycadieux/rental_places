@@ -25,9 +25,26 @@ body {
     text-decoration: none;
 }
 
+.navbar ul li a:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
 .navbar ul li p {
     color: white;
     font-size: 26px;
     display: inline;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    padding: 125px;
+    background-color: #161616;
+}
+
+.header p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 3rem;
+    text-align: center;
 }
